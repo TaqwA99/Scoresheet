@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taqwa Html_Tables</title>
+    <style>
+      body {
+        background-color: #808080;
+      }
+
+      header {
+        text-align: center;
+        line-height: 0.5;
+        color: white;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h3 {
+        font-size: 25px;
+      }
+
+      table {
+        border: 1px solid #808080;
+        border-collapse: collapse;
+        padding: 5px;
+        /* spacing: 5px; */
+        text-align: center;
+        color: white;
+        width: 100%;
+      }
+
+      th {
+        border: 1px solid white;
+        padding: 5px;
+        font-size: 20px;
+        background-color: #dddddd;
+      }
+
+      td {
+        border: 1px solid white;
+        padding: 5px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+        color: black;
+      }
+
+      tr:nth-child(odd) {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="school_details">
+      <h1 class="Sch_name">St. Benedict High School</h1>
+      <p>Teacher: Mr Ade</p>
+      <p>Class: SS2</p>
+      <h3>Scoresheet</h3>
+    </header>
+
+    <table>
+      <tr class="info_rows">
+        <th rowspan="2">S/N</th>
+        <th rowspan="2">Name</th>
+        <th colspan="5">Subject Scores</th>
+        <th rowspan="2" colspan="2">Total Scores</th>
+      </tr>
+      <tr class="info_rows">
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Biology</td>
+      </tr>
+      <tr class="info_rows">
+        <td>01</td>
+        <td>Adekunle</td>
+        <td class="score">72</td>
+        <td class="score">43</td>
+        <td class="score">78</td>
+        <td class="score">73</td>
+        <td class="score">37</td>
+        <td>303</td>
+      </tr>
+      <tr class="info_rows">
+        <td>02</td>
+        <td>John</td>
+        <td class="score">42</td>
+        <td class="score">64</td>
+        <td class="score">70</td>
+        <td class="score">55</td>
+        <td class="score">58</td>
+        <td>289</td>
+      </tr>
+      <tr class="info_rows">
+        <td>03</td>
+        <td>Peter</td>
+        <td class="score">62</td>
+        <td class="score">40</td>
+        <td class="score">73</td>
+        <td class="score">75</td>
+        <td class="score">99</td>
+        <td>349</td>
+      </tr>
+      <tr class="info_rows">
+        <td>04</td>
+        <td>Rukayat</td>
+        <td class="score">77</td>
+        <td class="score">75</td>
+        <td class="score">78</td>
+        <td class="score">75</td>
+        <td class="score">82</td>
+        <td>387</td>
+      </tr>
+      <tr class="info_rows">
+        <td>05</td>
+        <td>Paul</td>
+        <td class="score">72</td>
+        <td class="score">40</td>
+        <td class="score">72</td>
+        <td class="score">70</td>
+        <td class="score">97</td>
+        <td>351</td>
+      </tr>
+      <tr class="info_rows">
+        <td>06</td>
+        <td>Victor</td>
+        <td class="score">76</td>
+        <td class="score">64</td>
+        <td class="score">48</td>
+        <td class="score">99</td>
+        <td class="score">37</td>
+        <td>324</td>
+      </tr>
+      <tr class="info_rows">
+        <td>07</td>
+        <td>John</td>
+        <td class="score">62</td>
+        <td class="score">54</td>
+        <td class="score">78</td>
+        <td class="score">75</td>
+        <td class="score">64</td>
+        <td>333</td>
+      </tr>
+      <tr class="info_rows">
+        <td>08</td>
+        <td>Doe</td>
+        <td class="score">52</td>
+        <td class="score">84</td>
+        <td class="score">48</td>
+        <td class="score">85</td>
+        <td class="score">27</td>
+        <td>296</td>
+      </tr>
+      <tr class="info_rows">
+        <td>09</td>
+        <td>Stephen</td>
+        <td class="score">92</td>
+        <td class="score">44</td>
+        <td class="score">78</td>
+        <td class="score">65</td>
+        <td class="score">61</td>
+        <td>340</td>
+      </tr>
+    </table>
+  </body>
+</html>
